@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_wide">24dp</dimen>
+    <dimen name="textsize">24sp</dimen>
+    <dimen name="width">0dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="margin2">32dp</dimen>
+    <dimen name="radio_text">18sp</dimen>
+</resources>
