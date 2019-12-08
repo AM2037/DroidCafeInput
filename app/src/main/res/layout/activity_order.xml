@@ -74,7 +74,7 @@
 
     <EditText
         android:id="@+id/phone_text"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/width2"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"
@@ -84,6 +84,18 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/phone_label"
         app:layout_constraintStart_toEndOf="@+id/phone_label" />
 
+    <Spinner
+        android:id="@+id/label_spinner"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_wide"
+        android:layout_marginEnd="@dimen/margin_wide"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_wide"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/phone_text"
+        app:layout_constraintTop_toBottomOf="@id/address_text" />
     <TextView
         android:id="@+id/note_label"
         android:layout_width="wrap_content"

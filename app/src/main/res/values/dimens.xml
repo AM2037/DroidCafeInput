@@ -6,4 +6,5 @@
     <dimen name="margin">8dp</dimen>
     <dimen name="margin2">32dp</dimen>
     <dimen name="radio_text">18sp</dimen>
+    <dimen name="width2">134dp</dimen>
 </resources>
