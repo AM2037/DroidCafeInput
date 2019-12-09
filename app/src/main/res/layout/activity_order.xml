@@ -170,27 +170,14 @@
             android:text="@string/pick_up" />
     </RadioGroup>
 
-    <TextView
-        android:id="@+id/date_label"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginLeft="@dimen/margin_wide"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:text="@string/date_label_text"
-        android:textColor="@color/delivery"
-        android:textSize="@dimen/radio_text"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/delivery_radio" />
-
     <Button
         android:id="@+id/date_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginLeft="@dimen/margin_wide"
+        android:layout_marginStart="@dimen/margin2"
+        android:layout_marginLeft="@dimen/margin2"
         android:text="@string/date_btn"
         android:onClick="showDatePicker"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/date_label" />
+        app:layout_constraintTop_toBottomOf="@+id/delivery_radio" />
 </androidx.constraintlayout.widget.ConstraintLayout>
